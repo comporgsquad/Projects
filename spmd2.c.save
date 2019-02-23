@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <omp.h>
+#include <stdlib.h>
+ 
+int main(int argc, chat**argv){
+	int id, numTherads;
+	printf("\n");
+
+if(argc>	1){
+omp_set_num_threads(atoi(argv[1]));
+}
+
+#pragm omp parallel
+
