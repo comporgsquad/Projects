@@ -1,0 +1,11 @@
+1) To get help on a specific command, you can enter ":help" followed by the command to get help on that command
+2) While outside of insert mode, you can use the home row keys (h, j, k, and l) to move the cursor. H will move the cursor to the the left while l will move it to the right. J will move the cursor down while K will move the cursor up.
+3) To insert text before the cursor type "i" or use "I" to insert text at the begining of a line.
+4) To append text after the cursor type "a" or use "A" to append text at the end of a line
+5) To undo the last command use "u".
+6) Vim starts in command line mode by default, you can return to command line mode by pressing escape.
+7) To drop into command line mode press ":" followed by the command you wish to use. Make sure to be out of insert mode by pressing esc
+8) There are multiple ways of deleting text over a range. Use "Nx" where N is replaced by the number of characters to be deleted, starting with the character under the cursor. Use "dNw" where N is replaced by the number of words to be deleted, starting with the character under the cursor. Use "Ndd" or "dNd" where N represents the number of lines to be deleted begining with the current line.
+9) To find a string within the file, use "/string" or "?string" followed by the string you are trying to match.
+10) You can save and quit from a file by using "x" or "wq" while in command line mode. To just quit without saving, use the command "q". If the editor complains about changes not being saved and you don't wish to save your changes, use "q!" to exit without saving. You can write a new file by using the "w" command followed by a space and the name you want the file to be.
+11)You can run a shell command by using ":!" followed immediately by the shell command.
